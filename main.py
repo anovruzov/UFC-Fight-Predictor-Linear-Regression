@@ -18,7 +18,7 @@ data = {
 df = pd.DataFrame(data)
 
 # Selecting features and target
-features = df[['Fight_Win_Percentage', 'Takedown_Defense_Rate', 'Takedowns_Per_Fight', 'Amount_of_Submissions', 'Strikes_Per_Minute', 'Knockouts', 'Fighter_Reach', 'Fighter_Age']]
+features = df[['Takedown_Defense_Rate', 'Takedowns_Per_Fight', 'Amount_of_Submissions', 'Strikes_Per_Minute', 'Knockouts', 'Fighter_Reach', 'Fighter_Age']]
 target = df['Fight_Win_Percentage']
 
 # Training the Linear Regression model
